@@ -5,3 +5,9 @@ describe("Greeting", () => {
     expect(greetings.hello()).toBe("HELLO");
   });
 });
+
+describe("Goodbye", () => {
+  it("knows that goodbye returns GOODBYE", () => {
+    expect(greetings.goodbye()).toBe("GOODBYE");
+  });
+});
